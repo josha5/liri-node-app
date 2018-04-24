@@ -4,6 +4,7 @@ Spotify API, OMDB API, & Twitter API.
 
 ## How to use.
 This application takes one of 4 commands to call one of the APIS listed above. node liri.js [spotify-this-song] [your-song-here] will make a call to the spotify app and will output in the console: 
+
      * Artist(s)
      
      * The song's name
@@ -22,7 +23,7 @@ The second command is node liri.js [movie-this] [your-movie-here] that makes a c
        * Plot of the movie.
        * Actors in the movie.
 
-The third command is node liri.js [my-tweets] that outputs to the console my 5 latest tweets.
+The third command is node liri.js [my-tweets] that outputs to the console my 20 latest tweets.
 
 the fourth command node liri.js [do-what-it-says] makes another call to the spotify api by reading the random.txt file to output song info to the console for that song.
 
