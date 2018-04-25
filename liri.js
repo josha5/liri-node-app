@@ -3,9 +3,9 @@ let keys = require('./keys.js');
 // file system
 var request = require("request");
 var fs = require("fs");
-var twitter = require("twitter");
+var Twitter = require("twitter");
 var Spotify = require("node-spotify-api");
-var client = new twitter(keys.twitter);
+
 
 let nodeArg = process.argv[3];
 let command = process.argv[2];
@@ -35,7 +35,9 @@ switch(command){
 
 function tweet(){
     //Display last 20 Tweets
-    client.get('statuses/user_timeline.json?=twitterapi&danieltoshcount=5', function(error, tweets, response){
+
+    var client = new Twitter(keys.twitter);
+    client.get('statuses/user_timeline.json?=twitterapi&JoshBlockeed&count=20', function(error, tweets, response){
         if(!error) {
             for(var i = 0; i < tweets.length; i++) {
                 var date = tweets[i].created_at;
