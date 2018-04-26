@@ -24,6 +24,7 @@ The second command is node liri.js [movie-this] [your-movie-here] that makes a c
        * Actors in the movie.
 
 The third command is node liri.js [my-tweets] that outputs to the console my 20 latest tweets.
+![my-tweets node command demo](https://media.giphy.com/media/3feY9ogg9fVAXoPM2c/giphy.gif)
 
 the fourth command node liri.js [do-what-it-says] makes another call to the spotify api by reading the random.txt file to output song info to the console for that song.
 
