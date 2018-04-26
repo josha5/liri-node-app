@@ -22,6 +22,7 @@ The second command is node liri.js [movie-this] [your-movie-here] that makes a c
        * Language of the movie.
        * Plot of the movie.
        * Actors in the movie.
+       ![Screen shot of movie-this command node js](assets/images/movieThis.png)
 
 The third command is node liri.js [my-tweets] that outputs to the console my 20 latest tweets.
 ![my-tweets node command demo](https://media.giphy.com/media/3feY9ogg9fVAXoPM2c/giphy.gif)
